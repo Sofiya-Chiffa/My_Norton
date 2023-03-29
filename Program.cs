@@ -6,6 +6,7 @@ namespace My_Norton
     {
         static void Main(string[] args)
         {
+            /*
             Directories D = new Directories();
             Console.WriteLine(Directories.ShortDir(D.GetDir()));
             string s = Console.ReadLine();
@@ -13,6 +14,9 @@ namespace My_Norton
             Console.WriteLine(Directories.ShortDir(D.GetDir()));
             D.PrintDir(D);
             Commands.makeDir(D, "Mouse");
+            */
+
+            Interface.MainWindow();
         }
     }
 }
